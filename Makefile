@@ -5,7 +5,7 @@ main.o: main.cpp
 	$(CXX) -c $^
 
 chip8.o: chip8.cpp chip8.h
-	$(CXX) -c $^
+	$(CXX) -c chip8.cpp
 
 clean:
 	rm *.o myChip8
